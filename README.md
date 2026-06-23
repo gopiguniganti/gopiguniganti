@@ -21,6 +21,11 @@ A few things running in there:
 
 ---
 
+## 🚗 Real-time Car Telemetry
+
+→ **[gopiguniganti/realtime-telemetry-pipeline](https://github.com/gopiguniganti/realtime-telemetry-pipeline)**
+
+Python pipeline that pulls live OBD-II data from my car over Bluetooth, streams it into InfluxDB, and visualises it in Grafana — speed, engine load, coolant temp, fuel trims in real time. Packaged with Docker Compose for easy local runs.
 
 ---
 
