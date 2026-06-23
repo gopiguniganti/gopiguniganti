@@ -1,6 +1,6 @@
 # Hi, I'm Gopi 👋
 
-I build things that make my own life more automated, private, and observable — mostly through self-hosting, Python, and Docker.
+I build things that make my own life more automated, private, and observable — mostly through self-hosting.
 
 ---
 
