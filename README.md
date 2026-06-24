@@ -1,35 +1,45 @@
 # Hey, I'm Gopi 👋
 
-I self-host everything I can, automate things that annoy me, and generally prefer owning my own data.
+I build practical systems for myself: self-hosted infrastructure, automation, and data pipelines that help me own my tools and my data.
 
 ---
 
 ## 🖥️ HomeLab
 
-Running **40+ Docker containers** on a home server — media, photos, documents, local AI, finance, fitness, and network monitoring. All self-hosted, all mine.
+I run a personal HomeLab with 40+ Docker containers on a home server covering media, backups, documents, local AI, finance, fitness, and monitoring.
 
-→ **[gopiguniganti/HomeLab](https://github.com/gopiguniganti/HomeLab)**
+→ [gopiguniganti/HomeLab](https://github.com/gopiguniganti/HomeLab)
 
-A few things running in there:
+A few of the core pieces in that setup:
 
-- 🤖 Local LLMs via [Open WebUI](https://github.com/open-webui/open-webui) — fully offline AI, no cloud
-- 📸 [Immich](https://immich.app/) — self-hosted photo backup with ML face recognition
-- 📄 [Paperless-NGX](https://docs.paperless-ngx.com/) — OCR pipeline that auto-organises documents
-- ⚙️ [n8n](https://n8n.io/) — personal workflow automation
-- 🔍 [SearXNG](https://searxng.github.io/searxng/) — private search engine
-- 📊 Network & disk monitoring with ntopng + Scrutiny
-
----
-
-## 🚗 Real-time Car Telemetry
-
-→ **[gopiguniganti/realtime-telemetry-pipeline](https://github.com/gopiguniganti/realtime-telemetry-pipeline)**
-
-Python pipeline that pulls live OBD-II data from my car over Bluetooth, streams it into InfluxDB, and visualises it in Grafana — speed, engine load, coolant temp, fuel trims in real time. Packaged with Docker Compose for easy local runs.
+- 🤖 Local AI with [Open WebUI](https://github.com/open-webui/open-webui)
+- 📸 [Immich](https://immich.app/) for self-hosted photo backups and organization
+- 📄 [Paperless-ngx](https://docs.paperless-ngx.com/) for OCR and document management
+- ⚙️ [n8n](https://n8n.io/) for personal workflow automation
+- 🔍 [SearXNG](https://searxng.github.io/searxng/) for private search
+- 📊 Monitoring and visibility with ntopng, Scrutiny, and dashboard tooling
 
 ---
 
-## 🛠️ Tools I reach for
+## 🚗 Real-Time Car Telemetry
+
+built a local telemetry pipeline for my car that reads OBD-II data over Bluetooth, streams it into InfluxDB, and visualizes it in Grafana.
+
+→ [gopiguniganti/realtime-telemetry-pipeline](https://github.com/gopiguniganti/realtime-telemetry-pipeline)
+
+It tracks live vehicle metrics such as:
+
+- speed
+- engine load
+- coolant temperature
+- fuel trims
+- and other real-time diagnostics
+
+The project is packaged with Python and Docker Compose for easy local runs.
+
+---
+
+## 🛠️ Tools I use
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
