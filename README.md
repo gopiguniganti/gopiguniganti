@@ -1,17 +1,30 @@
 # Hey, I'm Gopi 👋
 
-Data engineer. I build pipelines and platforms — lakehouse architectures on
-Databricks/Delta Lake, dbt-modeled warehouses, and the odd bit of self-hosted
-infrastructure and automation on the side.
+Senior Data Engineer with 5+ years building the AML and financial-crimes
+data platform behind a major bank's transaction monitoring and regulatory
+reporting — production Spark on AWS EMR, AWS Glue serverless pipelines,
+Airflow (MWAA) orchestration, and SSIS/Netezza. Outside of that, I use
+personal projects to go deeper on tools I don't touch day-to-day —
+currently Databricks/Delta Lake and dbt — plus some self-hosted
+infrastructure.
 
 ---
 
-## 📊 Data Engineering
+## 💼 Professional focus
+
+AML transaction monitoring and regulatory reporting (FINTRAC, FinCEN) for a
+major bank — Spark on AWS EMR, AWS Glue/Lambda serverless pipelines, 200+
+production Airflow DAGs, SSIS/Netezza. That work is proprietary, so it
+doesn't have public repos — details are on my resume/LinkedIn instead.
+
+## 📊 Personal projects — data engineering
 
 ### Sanctions Screening Pipeline — Databricks / Delta Lake
-A bronze/silver/gold pipeline that ingests the OFAC sanctions list, cleans
-and upserts it into Delta (`MERGE INTO`, `OPTIMIZE`/`ZORDER BY`, time
-travel), and screens a customer list against it with a fuzzy-match scorer.
+A self-directed project to get hands-on with Databricks/Delta Lake outside
+my day job's EMR/Glue stack. Bronze/silver/gold pipeline that ingests the
+OFAC sanctions list, cleans and upserts it into Delta (`MERGE INTO`,
+`OPTIMIZE`/`ZORDER BY`, time travel), and screens a customer list against
+it with a fuzzy-match scorer.
 
 → [gopiguniganti/sanctions_pipeline](https://github.com/gopiguniganti/sanctions_pipeline)
 
@@ -52,12 +65,19 @@ diagnostics. Packaged with Python and Docker Compose.
 
 ## 🧰 Tools I use
 
-![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD4?style=flat&logo=delta&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
+**Day job:**
+
+![Apache Spark](https://img.shields.io/badge/PySpark%2FScala-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+**Personal projects:**
+
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD4?style=flat&logo=delta&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat&logo=dbt&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
