@@ -14,8 +14,7 @@ infrastructure.
 
 AML transaction monitoring and regulatory reporting (FINTRAC, FinCEN) for a
 major bank — Spark on AWS EMR, AWS Glue/Lambda serverless pipelines, 200+
-production Airflow DAGs, SSIS/Netezza. That work is proprietary, so it
-doesn't have public repos — details are on my resume/LinkedIn instead.
+production Airflow DAGs, SSIS/Netezza.
 
 ## 📊 Personal projects — data engineering
 
